@@ -234,7 +234,7 @@ def explanation_for_positional_absenteesm(movie_name, questioned_loc,
     elif rank_of_this > questioned_loc - 1:
         group_results = group_no_na.loc[this_movie_id]
         # print(group_results)
-        print("This is why the movie was presented at a higher position:")
+        print("This is why the movie was presented at a lower position:")
         print(f" - The movie at position {questioned_loc} has a predicted "
               f"rating of {prediction_for_questioned:.2f}")
         print(f" - We predicted that the following users in your group")
